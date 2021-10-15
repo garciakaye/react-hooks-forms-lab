@@ -7,7 +7,7 @@ function Filter({ search, onCategoryChange, onSearchChange }) {
       type="text"
       placeholder="Search..."  
       value={search}
-      onChange={e => onSearchChange(e.target.value)}
+      onChange={e => onSearchChange(e)}
       />
       
       <select name="filter" onChange={onCategoryChange}>
